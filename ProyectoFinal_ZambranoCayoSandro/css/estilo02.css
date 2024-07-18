@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: yellow;
+    padding: 10px 0;
+    text-align: right;
+}
+
+header .social-icons a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: yellow;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.reserva-btn {
+    border: 2px solid yellow;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: yellow;
+    text-decoration: none;
+}
+
+.imagen-fondo-seccion {
+    background-color: rgb(0, 0, 0); /* Color de fondo mientras carga la imagen */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.imagen-fondo {
+    background-image: url('../imagen/celuklar.jpeg'); /* Reemplazar 'imagen01' con la URL de la imagen */
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 50px 20px;
+    color: white;
+    display: inline-block;
+    max-width: 90%;
+    border: 5px solid white;
+}
+
+.imagen-fondo h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.boton-amarillo {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-amarillo:hover {
+    background-color: darkyellow;
+}
+
+footer {
+    background-color: rgb(19, 30, 93);
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+
+.footer-casilla {
+    width: 22%;
+}
+
+.footer-casilla h3 {
+    margin-bottom: 10px;
+}
+
+.footer-casilla p, .footer-casilla ul, .footer-casilla button {
+    margin-bottom: 15px;
+}
+
+.footer-social-icons a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-casilla ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-casilla ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+    transition: color 0.3s;
+}
+
+.footer-casilla ul li a:hover {
+    color: yellow;
+}
+
+.boton-verde.redondeado {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-verde.redondeado:hover {
+    background-color: darkgreen;
+}
+
+.verde {
+    color: yellow;
+}
+
+.seccion-titulo-centrado {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.seccion-titulo-centrado h2 {
+    font-size: 32px;
+}
+
+.seccion-titulo-centrado .blanco {
+    color: white;
+}
+
+.seccion-titulo-centrado .amarillo {
+    color: yellow;
+}
+
+.seccion-imagenes {
+    background-color: black;
+    color: white;
+    padding: 50px ;
+    text-align: center;
+    
+}
+
+.seccion-imagenes h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.seccion-imagenes .blanco {
+    color: white;
+}
+
+.seccion-imagenes .amarillo {
+    color: yellow;
+}
+
+.imagenes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.imagen-item {
+    max-width: 100%; /* Ajustamos el ancho máximo de las imágenes */
+    border-radius: 10px;
+}
+
+.seccion-titulo-izquierda {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.seccion-titulo-izquierda .contenido {
+    text-align: center;
+}
+
+.seccion-titulo-izquierda h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.seccion-titulo-izquierda .blanco {
+    color: white;
+}
+
+.seccion-titulo-izquierda .amarillo {
+    color: yellow;
+}
+
+.imagenes-horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagen-item-redondeado {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+
+

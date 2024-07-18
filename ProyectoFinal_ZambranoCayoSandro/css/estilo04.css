@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: yellow;
+    padding: 10px 0;
+    text-align: right;
+}
+
+header .social-icons a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: yellow;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.reserva-btn {
+    border: 2px solid yellow;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: yellow;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+  
+h1 {
+    color: yellow;
+    font-size: 24px;
+    text-align: center;
+}
+  
+p {
+    color: yellow;
+    text-align: center;
+}
+  
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+  
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+  
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid yellow;
+    background-color: black;
+    color: white;
+}
+  
+input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus {
+    outline: none;
+    border-color: white;
+}
+  
+input[type="submit"] {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+input[type="submit"]:hover {
+    background-color: #f0e68c;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(19, 30, 93);
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+
+.footer-casilla {
+    width: 22%;
+}
+
+.footer-casilla h3 {
+    margin-bottom: 10px;
+}
+
+.footer-casilla p, .footer-casilla ul, .footer-casilla button {
+    margin-bottom: 15px;
+}
+
+.footer-social-icons a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-casilla ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-casilla ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+    transition: color 0.3s;
+}
+
+.footer-casilla ul li a:hover {
+    color: yellow;
+}
+
+.boton-verde.redondeado {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+} 
+
+.boton-verde.redondeado:hover {
+    background-color: darkgreen;
+}
+
+.verde {
+    color: yellow;
+}

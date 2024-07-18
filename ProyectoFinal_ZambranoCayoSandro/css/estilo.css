@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: yellow;
+    padding: 10px 0;
+    text-align: right;
+}
+
+header .social-icons a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: yellow;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.reserva-btn {
+    border: 2px solid yellow;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: yellow;
+    text-decoration: none;
+}
+
+.primer-seccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.contenido-izquierda {
+    width: 50%;
+}
+
+.contenido-izquierda h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contenido-izquierda .amarillo {
+    color: yellow;
+}
+
+.contenido-izquierda .blanco {
+    color: white;
+}
+
+.contenido-izquierda p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.boton-amarillo {
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-amarillo:hover {
+    background-color: black;
+    color: yellow;
+}
+
+.contenido-derecha {
+    width: 50%;
+    text-align: center;
+}
+
+.contenido-derecha img {
+    max-width: 100%;
+    border: 2px solid yellow;
+}
+
+.seccion-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.contenido-superior {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contenido-superior h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contenido-superior .blanco {
+    color: white;
+}
+
+.contenido-superior .amarillo {
+    color: yellow;
+}
+
+.contenido-superior p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.boton-amarillo {
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-amarillo:hover {
+    background-color: black;
+    color: yellow;
+}
+
+.contenido-inferior {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.imagenes img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.formulario-seccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(184, 217, 51);
+    color: white;
+    padding: 50px;
+}
+
+.lado-izquierdo {
+    width: 50%;
+}
+
+.contenido-central {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.imagen-central {
+    max-width: 200%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.lado-izquierdo h2 {
+    font-size: 24px;
+    margin-top: 60px;
+}
+
+.lado-izquierdo .negro {
+    color: black;
+}
+
+.lado-izquierdo .blanco {
+    color: white;
+}
+
+.lado-derecho {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lado-derecho h2 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.lado-derecho form {
+    display: flex;
+    flex-direction: column;
+}
+
+.lado-derecho label {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.lado-derecho input, .lado-derecho button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.boton-verde {
+    background-color: rgb(184, 217, 51);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-verde:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    background-color: rgb(19, 30, 93);
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+
+.footer-casilla {
+    width: 22%;
+}
+
+.footer-casilla h3 {
+    margin-bottom: 10px;
+}
+
+.footer-casilla p, .footer-casilla ul, .footer-casilla button {
+    margin-bottom: 15px;
+}
+
+.footer-social-icons a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-casilla ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-casilla ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+    transition: color 0.3s;
+}
+
+.footer-casilla ul li a:hover {
+    color: yellow;
+}
+
+.boton-verde.redondeado {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-verde.redondeado:hover {
+    background-color: darkgreen;
+}
+
+.verde {
+    color: yellow;
+}
+
+.imagen-fondo-seccion {
+    background-color: blue; /* Color de fondo mientras carga la imagen */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.imagen-fondo {
+    background-image: url('imagen01'); /* Reemplazar 'imagen01' con la URL de la imagen */
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 50px 20px;
+    color: white;
+    display: inline-block;
+    max-width: 90%;
+    border: 5px solid white;
+}
+
+.imagen-fondo h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.boton-amarillo {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-amarillo:hover {
+    background-color: darkyellow;
+}
